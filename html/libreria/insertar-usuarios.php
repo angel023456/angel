@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Insertar Usuario</title>
+</head>
+<body>
+	<h2>Insertar Usuario</h2>
+	<form action="procesa_usuarios.php" method="POST">
+    	<label for="nombre">Nombre:</label><br>
+    	<input type="text" id="nombre" name="nombre"><br>
+   	 
+    	<label for="email">Email:</label><br>
+    	<input type="email" id="email" name="email"><br>
+   	 
+    	<label for="telefono">Teléfono:</label><br>
+    	<input type="tel" id="telefono" name="telefono"><br><br>
+   	 
+    	<input type="submit" name="submit_usuario" value="Insertar Usuario">
+	</form>
+</body>
+</html>
+
